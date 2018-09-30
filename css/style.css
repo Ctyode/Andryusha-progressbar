@@ -4,10 +4,23 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.version_text {
+  height: 44px;
+  margin: auto;
+  width: 450px;
+  font-size: 19px;
+}
+
 #version {
   text-align: center;
   font-weight: 900;
-  font-size: 22px;
+  float: left;
+}
+
+#version_completed {
+  text-align: center;
+  font-weight: 500;
+  float: right;
 }
 
 .full {
