@@ -7,7 +7,12 @@ window.onload = function() {
   var engine_made = 10; // сюда вставляй сколько задач по коду сделал
   var all_engine_tasks = 10; // общее количество задач по коду
 
+
+  var all_tasks = all_art_tasks + all_text_tasks + all_engine_tasks;
+  var all_tasks_made = art_made + text_made + engine_made;
+  var percent_completed = Math.round(100 / (all_tasks / all_tasks_made));
   document.getElementById("version").innerHTML="v" + version_number + " Progress";
+  document.getElementById("version_completed").innerHTML= percent_completed + "% completed of" + " " + all_tasks + " tasks";
 
   var art_result = 100 / (all_art_tasks / art_made);
   document.getElementById('first_fragment').setAttribute("style", "width:" +  art_result + "%");
