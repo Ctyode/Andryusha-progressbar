@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.full {
+  background-color: #eaeaea;
+  width: 1000px;
+  height: 10px;
+}
+
+#first_fragment {
+  position: relative;
+  background-color: #8BC34A;
+  height: 10px;
+}
+
+#first_percent-text {
+  float: right;
+}
+
+#first_tasks-made {
+  float: left;
+}
+
+
+#second_fragment {
+  position: relative;
+  background-color: #9C27B0;
+  height: 10px;
+}
+
+#second_percent-text {
+  float: right;
+}
+
+#second_tasks-made {
+  float: left;
+}
+
+#third_fragment {
+  position: relative;
+  background-color: #FF5722;
+  height: 10px;
+}
+
+#third_percent-text {
+  float: right;
+}
+
+#third_tasks-made {
+   float: left;
+}
+
+
+.text {
+  width: 1000px;
+  height: 32px;
+}
+
+.title {
+  font-weight: 900;
+  float: left;
+  margin-right: 7px;
+}
+
+
+.progress-bar {
+  width: 1000px;
+  height: 32px;
+  margin: auto;
+  margin-top: 26px;
+}
