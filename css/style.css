@@ -4,9 +4,15 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+#version {
+  text-align: center;
+  font-weight: 900;
+  font-size: 22px;
+}
+
 .full {
   background-color: #eaeaea;
-  width: 1000px;
+  width: 450px;
   height: 10px;
 }
 
@@ -55,7 +61,7 @@ body {
 
 
 .text {
-  width: 1000px;
+  width: 450px;
   height: 32px;
 }
 
@@ -67,7 +73,7 @@ body {
 
 
 .progress-bar {
-  width: 1000px;
+  width: 450px;
   height: 32px;
   margin: auto;
   margin-top: 26px;

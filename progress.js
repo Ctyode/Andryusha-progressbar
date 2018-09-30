@@ -1,4 +1,5 @@
 window.onload = function() {
+  var version_number = "0.2.1"; // сюда пиши номер версии (только число с точками)
   var art_made = 80; // сюда вставляй сколько нарисовал
   var all_art_tasks = 136; // общее количество задач по рисованию
   var text_made = 50; // сюда вставляй сколько текста написал
@@ -6,6 +7,7 @@ window.onload = function() {
   var engine_made = 10; // сюда вставляй сколько задач по коду сделал
   var all_engine_tasks = 10; // общее количество задач по коду
 
+  document.getElementById("version").innerHTML="v" + version_number + " Progress";
 
   var art_result = 100 / (all_art_tasks / art_made);
   document.getElementById('first_fragment').setAttribute("style", "width:" +  art_result + "%");
